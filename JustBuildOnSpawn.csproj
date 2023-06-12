@@ -73,9 +73,7 @@
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <ItemGroup>
-      <Folder Include="Build\" />
-    </ItemGroup>
-    <ItemGroup>
+      <Content Include="Build\JustBuildOnSpawn.dll" />
       <Content Include="README.md" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
